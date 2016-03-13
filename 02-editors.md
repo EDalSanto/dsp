@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Most sources say the important thing is just to be good at any of them. I choose VIM, because it's so ubiquitous, naturally found on my Mac. And while it has perhaps the steepest learning curve, it has a huge potential and better argued egronomics than Emacs.
 
 --
 
