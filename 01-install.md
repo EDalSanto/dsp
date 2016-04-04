@@ -52,7 +52,7 @@ Did you install Python 2 or 3? Why?
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> Run "Python" in CLI which will initiate Python's interactive environment and list at the top which version is installed. 
+>> Run "Python" in CLI which will initiate Python's interactive environment and list at the top which version is running. 
 
  
 
