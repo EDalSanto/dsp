@@ -67,6 +67,7 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I choose Atom, because I heard such great things about it from people in the industry and loved it myself trying it out.
+Atoms most interest feature is its "Command Palette", a search-driven menu that can do just about anything in Atom, shows if there is a keybinding associated with each command. The keyboard shortcut for the "Command Palette" is "cmd-shift-P".
 
  
