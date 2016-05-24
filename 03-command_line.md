@@ -13,11 +13,11 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-ls:
-  ls: lists all 'visible' files and folders in directory
-  ls -a: list all files, including invisible files and folders(prepending of .)
-  ls -l: list in long format
-    ls -lh: list in long format human readable size
+* ls:
+  * ls: lists all 'visible' files and folders in directory
+  * ls -a: list all files, including invisible files and folders(prepending of .)
+  * ls -l: list in long format
+  * ls -lh: list in long format human readable size
 
 pwd: prints working directory
 
