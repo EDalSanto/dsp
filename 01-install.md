@@ -46,14 +46,10 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> I'm using Python 2.7, because sources that I'm learning with (MIT and Learn Python the Hard Way) suggest that I start with Python 2, because it's completely established and supported. Python 3 still needs further development and use, although that may be coming soon. I can also easily learn Python 3 after Python 2 in the future when necessary. 
+>> I'm using Python 2.7, because sources that I've learned with (MIT and Learn Python the Hard Way) suggest that I start with Python 2, because it's completely established and supported. Python 3 still needs further development and use, although that may be coming very soon! I can also easily learn Python 3 after Python 2 in the future when necessary.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> Run "Python" in CLI which will initiate Python's interactive environment and list at the top which version is running. 
-
- 
-
-
+>> enter "Python -V" at command line

@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> Most sources say the important thing is just to be good at any of them. I choose Nano first, because of its simplicity. I hope to learn VIM, because it's so ubiquitous and naturally found on my Mac. And while it has perhaps the steepest learning curve, it has a huge potential and better argued egronomics than Emacs.
+>> Most sources say the important thing is just to be good at any of them. I choose Nano first, because of its simplicity. I hope to learn VIM, because it's so ubiquitous and found on practically every computer. And while it has perhaps the steepest learning curve, it has a huge potential and better argued egronomics than Emacs.
 
 --
 
@@ -67,7 +67,5 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I choose Atom, because I heard such great things about it from people in the industry and loved it myself trying it out.
-Atoms most interest feature is its "Command Palette", a search-driven menu that can do just about anything in Atom, shows if there is a keybinding associated with each command. The keyboard shortcut for the "Command Palette" is "cmd-shift-P".
-
- 
+>> I choose Atom, because I heard such great things about it from people in the industry and loved it myself trying it out, such as the layout and community.
+Atoms most interest feature is its "Command Palette", a search-driven menu that can do just about anything in Atom, shows if there is a keybinding associated with each command. The keyboard shortcut for the "Command Palette" is "cmd-shift-P". Also, similarily searching for directories and files within a project folder is super easy with "cmd-p"
