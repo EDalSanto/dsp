@@ -1,6 +1,6 @@
 # Based on materials copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
-
+from string import punctuation
 
 def donuts(count):
     """
@@ -18,8 +18,10 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
-
+    if count >= 10:
+        print "Number of donuts: many"
+    else:
+        print "Number of donuts: %d" % count
 
 def both_ends(s):
     """
@@ -37,8 +39,10 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
-
+    if len(s) < 2:
+        return ''
+    else:
+        return s[:2] + s[-2:]
 
 def fix_start(s):
     """
@@ -56,8 +60,14 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
-
+    first_char = s[0]
+    new_str = first_char
+    for char in s[1:]:
+        if char == first_char:
+            new_str += '*'
+        else:
+            new_str += char
+    return new_str
 
 def mix_up(a, b):
     """
@@ -74,8 +84,11 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
-
+    word_arr_1 = list(a)
+    word_arr_2 = list(b)
+    word_arr_1[:2],word_arr_2[:2]=word_arr_2[:2],word_arr_1[:2]
+    swapped = "".join(word_arr_1) + ' ' + "".join(word_arr_2)
+    return swapped
 
 def verbing(s):
     """
@@ -91,8 +104,13 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
-
+    if len(s) < 3:
+        return s
+    elif s[-3:] == 'ing':
+        new_str = s + 'ly'
+    else:
+        new_str = s + 'ing'
+    return new_str
 
 def not_bad(s):
     """
@@ -111,8 +129,19 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
-
+    word_arr = s.split()
+    new_str = ''
+    for index,word in enumerate(word_arr):
+        if word == 'not':
+            for index2,word2 in enumerate(word_arr[index:]):
+                if word2.strip(punctuation) == 'bad':
+                    word2 = word2.replace('bad','good')
+                    new_str += word2
+                    return new_str
+            new_str += 'not '
+        else:
+            new_str += word + ' '
+    return new_str.strip()
 
 def front_back(a, b):
     """
@@ -130,4 +159,6 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    half_a = int(round(len(a)/2.0))
+    half_b = int(round(len(b)/2.0))
+    return a[:half_a] + b[:half_b] + a[half_a:] + b[half_b:]
