@@ -1,3 +1,4 @@
+
 # coding: utf-8
 #The football.csv file contains the results from the English Premier League.
 # The columns labeled ‘Goals’ and ‘Goals Allowed’ contain the total number of
